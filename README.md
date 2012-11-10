@@ -6,4 +6,5 @@ memory.
 A lot of the code is based on varnishstat, and thus has the same license.
 
 Currently only tested on Ubuntu Precise.  Patches that make this module work
-on other distributions, without breaking any existing support.
+on other distributions, without breaking any existing support are very much
+welcome.
