@@ -28,5 +28,5 @@ def shutdown():
   if Options.commands['clean']:
     if exists('varnishstat.node'): unlink('varnishstat.node')
   else:
-    if exists('build/default/varnishstat.node') and not exists('varnishstat.node'):
-      symlink('build/default/varnishstat.node', 'varnishstat.node')
+    if exists('build/Release/varnishstat.node') and not exists('varnishstat.node'):
+      symlink('build/Release/varnishstat.node', 'varnishstat.node')
