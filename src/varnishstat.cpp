@@ -54,9 +54,6 @@ void Init(Handle<Object> target) {
 
   target->Set(String::NewSymbol("fetchStats"),
     FunctionTemplate::New(fetchStats)->GetFunction());
-
-  target->Set(String::NewSymbol("foo"),
-    String::New("gjesp"));
 }
 
 NODE_MODULE(varnishstat, Init);
