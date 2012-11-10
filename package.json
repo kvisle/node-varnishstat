@@ -1,0 +1,19 @@
+{
+  "name": "varnishstat",
+  "version": "0.0.1",
+  "description": "A module for accessing metrics in Varnish' shared memory",
+  "keywords": [
+    "varnish",
+    "libvarnishapi"
+  ],
+  "author": {
+    "name": "Trygve Vea",
+    "email": "trygve.vea@gmail.com",
+    "web": "http://www.trygvevea.com",
+    "twitter": "kvisle"
+  },
+  "license": "BSD",
+  "scripts": {
+    "install": "node-gyp configure build"
+  }
+}
