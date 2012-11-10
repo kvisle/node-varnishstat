@@ -12,6 +12,10 @@
     "web": "http://www.trygvevea.com",
     "twitter": "kvisle"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvisle/node-varnishstat"
+  },
   "license": "BSD",
   "scripts": {
     "install": "node-gyp configure build"
