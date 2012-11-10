@@ -18,6 +18,6 @@
   },
   "license": "BSD",
   "scripts": {
-    "install": "node-gyp configure build"
+    "install": "node-waf configure build"
   }
 }
