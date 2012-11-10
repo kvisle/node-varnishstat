@@ -18,6 +18,10 @@
   },
   "license": "BSD",
   "scripts": {
+    "test": "vows --spec",
     "install": "node-waf configure build"
+  },
+  "devDependencies": {
+    "vows": "0.5.x"
   }
 }
