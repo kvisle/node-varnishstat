@@ -20,7 +20,7 @@ def build(bld):
   obj = bld.new_task_gen("cxx", "shlib", "node_addon")
   obj.target = "varnishstat"
   obj.source = "src/varnishstat.cpp src/varnishstatwrapped.c"
-  obj.linkflags = [ "-lrt", "/usr/lib/varnish/libvarnishcompat.so", "/usr/lib/libvarnishapi.so" ]
+  obj.linkflags = [ "-lrt", "-lvarnishapi" ]
   obj.cflags = ["-fPIC", "-I/usr/include/varnish"]
   obj.cxxflags = ["-fPIC", "-I/usr/include/varnish"]
 
