@@ -1,6 +1,6 @@
 {
   "name": "varnishstat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A module for accessing metrics in Varnish' shared memory",
   "keywords": [
     "varnish",

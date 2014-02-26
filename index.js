@@ -1,1 +1,2 @@
-module.exports = require('./varnishstat')
+module.exports = require('./build/Release/varnishstat');
+
