@@ -1,3 +1,6 @@
+ARCHIVED 2022-07-02.  This project is based on EOLed software, and is 
+probably not of practical use for anyone.
+
 # node-varnishstat
 
 A module for node.js that gives you access to Varnish' counters in shared
